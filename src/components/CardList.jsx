@@ -52,6 +52,7 @@ function CardList({ graduates }) {
           graduate={graduate}
           key={graduate.name}
           colors={colors.at(index)}
+          index={index}
         />
       ))}
     </section>

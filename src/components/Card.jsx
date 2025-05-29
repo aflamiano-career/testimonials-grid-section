@@ -1,6 +1,20 @@
-function Card({ graduate, colors }) {
+function Card({ graduate, colors, index }) {
   return (
-    <div className={"p-8 rounded-lg shadow-2xl".concat(" ", colors.bgColor)}>
+    <div
+      className={"p-8 rounded-lg shadow-2xl relative z-1".concat(
+        " ",
+        colors.bgColor
+      )}
+    >
+      {index === 0 ? (
+        <img
+          src="bg-pattern-quotation.svg"
+          alt="Apostrophe image"
+          className="hidden md:block absolute right-[25%] top-0 -z-1"
+        ></img>
+      ) : (
+        ""
+      )}
       <div className="flex gap-4 items-center">
         <img
           src={graduate.image}
