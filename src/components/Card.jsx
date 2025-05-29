@@ -10,7 +10,7 @@ function Card({ graduate, colors, index }) {
         <img
           src="bg-pattern-quotation.svg"
           alt="Apostrophe image"
-          className="hidden md:block absolute right-[25%] top-0 -z-1"
+          className="hidden sm:block absolute right-[25%] top-0 -z-1"
         ></img>
       ) : (
         ""
