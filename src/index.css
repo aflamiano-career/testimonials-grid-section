@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-purple50: hsl(260, 100%, 95%);
+  --color-purple300: hsl(264, 82%, 80%);
+  --color-purple500: hsl(263, 55%, 52%);
+  --color-grey100: hsl(214, 17%, 92%);
+  --color-grey200: hsl(0, 0%, 81%);
+  --color-grey400: hsl(224, 10%, 45%);
+  --color-grey500: hsl(217, 19%, 35%);
+  --color-darkblue: hsl(219, 29%, 14%);
+  --color-black: hsl(0, 0%, 7%);
+
+  --font-barlow: "Barlow Semi Condensed", sans-serif;
+
+  --leading-lh100: 100%;
+  --leading-lh110: 110%;
+  --leading-lh120: 120%;
+  --leading-lh140: 140%;
+
+  --text-pr13: 0.813rem;
+  --text-pr11: 0.688rem;
+}
